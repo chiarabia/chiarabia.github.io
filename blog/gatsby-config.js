@@ -63,11 +63,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Chiara Bianchimani`,
+        name: `Chiara Bianchimani site`,
         short_name: `CB`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#F1CA55`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },

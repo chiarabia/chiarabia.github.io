@@ -19,7 +19,7 @@ export const Layout = (props: Props) => {
         </header>
         <nav className="sidebar-nav">
           <ul>
-            <li><a href="//medium.com/@bianca.chiarab_79543" rel="noopener noreferrer" target="_blank">Blog</a></li>
+            <li><a href="//medium.com/@chiarabianchimani" rel="noopener noreferrer" target="_blank">Blog</a></li>
             <li><Link to={`/projects`}>Projects</Link></li>
             <li><Link to={`/games`}>Games</Link></li>
             <li><a href="//chiarabianchimani.itch.io/" rel="noopener noreferrer" target="_blank">itch.io</a></li>
