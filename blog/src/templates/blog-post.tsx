@@ -17,7 +17,7 @@ const BlogPostTemplate = (props: Props) => {
   const frontmatter = post.frontmatter!
   const html = post.html!
   const siteTitle = data.site!.siteMetadata!.title!
-  const { previous, next } = props.pageContext
+  // const { previous, next } = props.pageContext
 
   return (
     <Layout location={props.location} title={siteTitle}>
@@ -28,7 +28,7 @@ const BlogPostTemplate = (props: Props) => {
       <h1>{post.frontmatter!.title}</h1>
       <span>{frontmatter.date}</span>
       <div dangerouslySetInnerHTML={{ __html: html }} />
-      <div>
+{/*       <div>
         <li>
           {previous && (
             <Link to={previous.fields!.slug!} rel="prev">
@@ -43,7 +43,7 @@ const BlogPostTemplate = (props: Props) => {
             </Link>
           )}
         </li>
-      </div>
+      </div> */}
     </Layout>
   )
 }

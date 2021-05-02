@@ -18,10 +18,29 @@
 
 /* typography */
 
+body {
+    font-size: 1rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 0.9rem;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
 }

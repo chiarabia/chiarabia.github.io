@@ -39,11 +39,11 @@ const BlogIndex = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        title="Bio"
+        title="Games"
         keywords={[`blog`, `game design`, `game development`]}
       />
-      <Bio />
-      {/* {posts.map(({ node }: { node: MarkdownRemark }) => {
+      <h1>Games</h1>
+      {posts.map(({ node }: { node: MarkdownRemark }) => {
         const frontmatter = node!.frontmatter!
         const fields = node!.fields!
         const slug = fields.slug!
@@ -63,7 +63,7 @@ const BlogIndex = (props: Props) => {
             />
           </div>
         )
-      })} */}
+      })}
     </Layout>
   )
 }
