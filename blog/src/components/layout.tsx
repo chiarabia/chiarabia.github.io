@@ -19,8 +19,9 @@ export const Layout = (props: Props) => {
         </header>
         <nav className="sidebar-nav">
           <ul>
-            <li><a href="" rel="noopener noreferrer" target="_blank">Blog</a></li>
+            <li><a href="//medium.com/@bianca.chiarab_79543" rel="noopener noreferrer" target="_blank">Blog</a></li>
             <li><Link to={`/projects`}>Projects</Link></li>
+            <li><Link to={`/`}>Games</Link></li>
             <li><a href="//chiarabianchimani.itch.io/" rel="noopener noreferrer" target="_blank">itch.io</a></li>
             <li><a href="//github.com/chiarabia" rel="noopener noreferrer" target="_blank">GitHub</a></li>
             <li><a href="//www.linkedin.com/in/chiara-bianchimani/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
