@@ -149,6 +149,13 @@ body {
     display: block;
     margin-left: 0,5em;
 } */
+
+/*Bio classes*/
+
+.bio-list{
+    margin-top: 0.3em;
+}
+
 /* More Typography */
 a,
 a:visited {
