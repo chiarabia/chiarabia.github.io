@@ -1,7 +1,7 @@
 ---
 title: Software Engineering Project
 date: "2020-07-28T22:40:32.169Z"
-description: This is a custom description for Seo and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Implementation with Java of a boardgame (Santorini) using MVC design patter, server, clients, sockets connectivity, CLI and GUI
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
