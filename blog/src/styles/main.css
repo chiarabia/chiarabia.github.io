@@ -127,6 +127,18 @@ body {
     margin-top: 0;
 }
 
+/* Blog Post classes*/
+.post-tags {
+    display: block;
+    font-size: 0.8em;
+    font-style:italic;
+}
+
+.post-date {
+    display: block;
+    margin-bottom: 0.5em;
+    
+}
 /* More Typography */
 a,
 a:visited {

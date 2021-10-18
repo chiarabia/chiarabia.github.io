@@ -26,7 +26,8 @@ const BlogPostTemplate = (props: Props) => {
         description={frontmatter.description || excerpt}
       />
       <h1>{post.frontmatter!.title}</h1>
-      <span>{frontmatter.date}</span>
+      <span className="post-date">{frontmatter.date}</span>
+      <span className="post-tags">{frontmatter.tags}</span>
       <div dangerouslySetInnerHTML={{ __html: html }} />
 {/*       <div>
         <li>
@@ -64,7 +65,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM YYYY")
+        tags
         description
       }
     }

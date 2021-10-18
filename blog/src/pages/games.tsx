@@ -26,7 +26,7 @@ const BlogIndex = (props: Props) => {
               slug
             }
             frontmatter {
-              date(formatString: "MMMM DD, YYYY")
+              date(formatString: "MMMM, YYYY")
               title
               description
             }
