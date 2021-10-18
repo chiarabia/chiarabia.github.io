@@ -1,6 +1,7 @@
 ---
 title: Algorithms and Data Structure Project
 date: "2020-09-06T23:46:37.121Z"
+description: Implementation using C of a text editor with commands add, delete, undo, redo. The project had strict time and spacial constraints. 
 ---
 
 Wow! I love blogging so much already.

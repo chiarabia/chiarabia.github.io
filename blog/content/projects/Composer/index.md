@@ -1,6 +1,7 @@
 ---
 title: Composer
 date: "2020-09-01T22:12:03.284Z"
+description: Software that creates runnable code for Arduino that can be used to make music, activate motors and turn on LEDS. 
 ---
 
 This is my first post on my new fake blog! How exciting!

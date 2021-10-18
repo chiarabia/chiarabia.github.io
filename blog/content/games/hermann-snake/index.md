@@ -2,6 +2,7 @@
 title: Hermann Snake
 date: "2021-04-01"
 tags: ["#BlackAndWhite gamejam"," #pico8"]
+description: Entry for the Black and White gamejam that revits the classic game of Snake by adding the effects created by Hermann Grids optical illusion.
 ---
 
 This is my first post on my new fake blog! How exciting!
