@@ -25,8 +25,9 @@ const BlogIndex = (props: Props) => {
               slug
             }
             frontmatter {
-              date(formatString: "MMMM DD, YYYY")
+              date(formatString: "MMMM, YYYY")
               title
+              tags
               description
             }
           }
@@ -57,7 +58,8 @@ const BlogIndex = (props: Props) => {
             <h2>
               <Link to={slug}>{title}</Link>
             </h2>
-            <small>{frontmatter.date}</small>
+            <small className="post-date">{frontmatter.date}</small>
+            <small className="post-tags">{frontmatter.tags}</small>
             <p
               dangerouslySetInnerHTML={{
                 __html: frontmatter.description || excerpt,

@@ -1,7 +1,7 @@
 ---
 title: Hermann Snake
 date: "2021-04-01"
-tags: ["#BlackAndWhite gamejam"]
+tags: ["#BlackAndWhite gamejam"," #pico8"]
 ---
 
 This is my first post on my new fake blog! How exciting!

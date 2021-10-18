@@ -25,6 +25,7 @@ const BlogIndex = (props: Props) => {
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
               title
+              tags
               description
             }
           }

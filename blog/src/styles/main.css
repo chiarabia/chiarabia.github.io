@@ -139,6 +139,16 @@ body {
     margin-bottom: 0.5em;
     
 }
+
+/*Menu classes*/
+/*  .menu-tags{
+    display: inline;
+} 
+
+.menu-date{
+    display: block;
+    margin-left: 0,5em;
+} */
 /* More Typography */
 a,
 a:visited {
