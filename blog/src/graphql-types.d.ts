@@ -1386,6 +1386,7 @@ export interface MarkdownRemarkFilterInput {
 export interface MarkdownRemarkFrontmatter {
   title?: Maybe<Scalars["String"]>
   date?: Maybe<Scalars["Date"]>
+  tags?: Maybe<Scalars["String"]>
   description?: Maybe<Scalars["String"]>
 }
 
