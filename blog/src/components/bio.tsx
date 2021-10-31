@@ -36,10 +36,11 @@ export const Bio = () => {
         PoliMi (Polytechnic University of Milan). My main topics of interest are: 
         <li className="bio-list">Game Design</li>
         <li className="bio-list">Ethics in Computer Science</li>
-        <li className="bio-list">Automation</li>
+        <li className="bio-list">Industrial Automation</li>
       </p>
       <p>I speak Italian, English, beginner level of Norwegian and I'm studying Chinese (HSK3 level).</p>
       <p>My hobbies are language learning and crafting, especially artistic journaling.</p>
+      <p>You can contact me at: bianca.chiarab (at) gmail (dot) com</p> 
     </>
   )
 }
