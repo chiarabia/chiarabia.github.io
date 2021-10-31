@@ -40,6 +40,7 @@ export const Bio = () => {
       </p>
       <p>I speak Italian, English, beginner level of Norwegian and I'm studying Chinese (HSK3 level).</p>
       <p>My hobbies are language learning and crafting, especially artistic journaling.</p>
+      <p>You can contact me at: bianca.chiarab (at) gmail (dot) com</p> 
     </>
   )
 }

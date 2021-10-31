@@ -4,11 +4,12 @@ date: "2020-09-06T23:46:37.121Z"
 description: Implementation using C of a text editor with commands add, delete, undo, redo. The project had strict time and spacial constraints. 
 ---
 
-Wow! I love blogging so much already.
+This project was complementary to my Algorithm and Data structure class.
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+The requirement of the project was the implementation in C of a text editor with the commands add, delete, undo, redo.
 
-Yeah, I didn't either.
+The project purpose was to pass a test suite with strict space and time requirements.
+
+I used lists as the general data structure. For the redo and undo commands I took inspiration from the command design pattern.
+
+You can find the project [here](https://github.com/chiarabia/ProgettoAPI2020)

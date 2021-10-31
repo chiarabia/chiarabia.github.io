@@ -4,19 +4,15 @@ date: "2020-09-01T22:12:03.284Z"
 description: Software that creates runnable code for Arduino that can be used to make music, activate motors and turn on LEDS. 
 ---
 
-This is my first post on my new fake blog! How exciting!
+This project was made in collaboration with [Andrea Franchini](https://andreafranchini.com).
 
-I'm sure I'll write a lot more interesting things in the future.
+The project started with the idea of giving robots, and thus the people programming them, a quick way to give feedback in a human way.
+This was achieved with a easy-to-use webapp where the user can create a musical score, activate motors and LEDS and then generate JSOn or Arduino code with their creation.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+The webapp is made with React and Redux and by using Typescript. It was made with ease of extensibility in mind. You can read more about it in the [report](https://github.com/QUB3X/composer/blob/master/Report.pdf).
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Here is the live [demo](https://composer.netlify.app).
 
-![Chinese Salty Egg](./salty_egg.jpg)
+Here is the [code](https://github.com/QUB3X/composer).
+
+
