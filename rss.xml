@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chiara Bianchimani]]></title><description><![CDATA[Chiara Bianchimani Portfolio.]]></description><link>https://chiarabianchimani.it</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Oct 2021 22:00:10 GMT</lastBuildDate><item><title><![CDATA[Hermann Snake]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://chiarabianchimani.it/hermann-snake/</link><guid isPermaLink="false">https://chiarabianchimani.it/hermann-snake/</guid><pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chiara Bianchimani]]></title><description><![CDATA[Chiara Bianchimani Portfolio.]]></description><link>https://chiarabianchimani.it</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Nov 2021 15:10:57 GMT</lastBuildDate><item><title><![CDATA[Logic Circuits Project]]></title><description><![CDATA[This project was complementary to my Logic Circuits class of my bachelor degree. The project was made in Xilinx’s Vivado using VHDL. The…]]></description><link>https://chiarabianchimani.it/Logic Circuits Project/</link><guid isPermaLink="false">https://chiarabianchimani.it/Logic Circuits Project/</guid><pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This project was complementary to my Logic Circuits class of my bachelor degree.&lt;/p&gt;
+&lt;p&gt;The project was made in Xilinx’s Vivado using VHDL. The requirements were to make a state machine that implemented the following equalization algorithm for black and white imagines.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;delta_value = max_pixel_value - min_pixel_value
+shift_level = (8-floor(log2(delta_value + 1)
+temp_level = (current_pixel_value - min_pixel_value) &amp;lt;&amp;lt; shift_level
+new_pixel_value = min(255, temp_pixel)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I used a Mealy state machine to create the circuit. It was synthesized with a clock period of 15ns and works pre and post synthesis. Since optimization was not a requirement for the project, I valued code readability higher than using a low amount of states in the state machine.&lt;/p&gt;
+&lt;p&gt;You can read the code &lt;a href=&quot;https://github.com/chiarabia/Progetto-Reti-Logiche-2021/blob/main/progetto%20reti.vhd&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can read a report of the project (in italian)&lt;a href=&quot;https://github.com/chiarabia/Progetto-Reti-Logiche-2021/blob/main/report.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hermann Snake]]></title><description><![CDATA[Hermann Snake is a game I made during April 2021 Black and White game jam. The theme of the jam was to create a game completely in black and…]]></description><link>https://chiarabianchimani.it/hermann-snake/</link><guid isPermaLink="false">https://chiarabianchimani.it/hermann-snake/</guid><pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    href=&quot;/static/34c2302507c118cf4b49204e6486da08/d9199/logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -26,49 +21,35 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMjv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QOoVoX//EAB0QAQEAAgIDAQAAAAAAAAAAAAERADFhgSFB0eH/2gAIAQEAAT8QSpwaGjrBSrtHyF9iY8RpUnGRBGqtOcsiDE6fM3AgiXf5M//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 41.891891891891895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABrUlEQVQoz1WRy6tBURTGTyZmYmLimcwYIjJAkXcoRSF55Zn3oyQiSSLyNpCZAcXE//fd9qrrdgfrrHVW3/6tb6/NcRyHfD6P1+uFwWCAyWSCdruNZrNJ0e12KbNer9f71q1WC51OB41GA/f7HblcDozFsU8mkyFBsVhEKBRCoVCAz+eDVquF0WhEv99HLBZDIBBAJBKhOhwOU2bn7XY7SqXSHzCVSmE0GuHz+eB6veJ2u2E+nxNArVZjNpshmUxiu93ifD7TYOauXq8ThA1nvS+QXTmdTkOlUkGn08HhcMBqtcJkMkGj0dBAt9tNt/B4PLDZbIjH49Dr9QTx+/3/gZVKBS6X67dBYTAYyC1bx263Q7VaxXK5JOcWiwXP55MMMG0wGKQ1fYG1Wg1Op5MaPB6PslgsxvF4pN1Eo1F6nOFwiGw2C7PZjOl0CqFQSFqv14tyufwHTCQSeL/ftFw2ne3rcDjgcrlgs9lgvV6Ty/1+j8ViQfXpdMJqtcJ4PMbj8fg+EAH5fD4UCgVEIhEEAgG5UyqVkEgkkMvlFDKZjILpWJZKpVQzHftnDMb6ATLNMjeNOKThAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
+        alt=&quot;Logo&quot;
         title=&quot;&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
-/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
-/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
-/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
-/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
-/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        src=&quot;/static/34c2302507c118cf4b49204e6486da08/fcda8/logo.png&quot;
+        srcset=&quot;/static/34c2302507c118cf4b49204e6486da08/12f09/logo.png 148w,
+/static/34c2302507c118cf4b49204e6486da08/e4a3f/logo.png 295w,
+/static/34c2302507c118cf4b49204e6486da08/fcda8/logo.png 590w,
+/static/34c2302507c118cf4b49204e6486da08/efc66/logo.png 885w,
+/static/34c2302507c118cf4b49204e6486da08/d9199/logo.png 960w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Logic Circuits Project]]></title><description><![CDATA[lorem]]></description><link>https://chiarabianchimani.it/Logic Circuits Project/</link><guid isPermaLink="false">https://chiarabianchimani.it/Logic Circuits Project/</guid><pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;lorem&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Algorithms and Data Structure Project]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://chiarabianchimani.it/Algorithms and Data Structure Project/</link><guid isPermaLink="false">https://chiarabianchimani.it/Algorithms and Data Structure Project/</guid><pubDate>Sun, 06 Sep 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Composer]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://chiarabianchimani.it/Composer/</link><guid isPermaLink="false">https://chiarabianchimani.it/Composer/</guid><pubDate>Tue, 01 Sep 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
+    &lt;/p&gt;
+&lt;p&gt;Hermann Snake is a game I made during April 2021 Black and White game jam. The theme of the jam was to create a game completely in black and white.&lt;/p&gt;
+&lt;p&gt;I found that using a black and white optical illusion was a perfect way to utilize the theme of the jam as a game mechanic itself. In the context of a snake game, by using the optical illusion of a Hermann Grid, there’s the illusion that there are multiple apples for the snake. &lt;/p&gt;
+&lt;p&gt;By varying the number of blocks and the constraint of the snake possible path, the player can choose the preferred style of playing.&lt;/p&gt;
+&lt;p&gt;I chose Pico8 for this game because I thought it fit the idea of the game best. You can look at the game code &lt;a href=&quot;https://github.com/chiarabia/Hermann-Snake&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can play Hermann Snake &lt;a href=&quot;https://chiarabianchimani.itch.io/hermann-snake&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    href=&quot;/static/2e4580a18280b6e14958d8d9ee946ff8/7de01/Menu.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -80,117 +61,69 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMjv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QOoVoX//EAB0QAQEAAgIDAQAAAAAAAAAAAAERADFhgSFB0eH/2gAIAQEAAT8QSpwaGjrBSrtHyF9iY8RpUnGRBGqtOcsiDE6fM3AgiXf5M//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 84.45945945945947%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABa0lEQVQ4y71UW0sCURBez+qD4JtBFytNV4tKyjsZFZpShOGtvJdJZrpu64X0oQv5EEJP/eSv04aFhhq69PAxw3Bm5jtzvjMMwzCQGb+DhCigUIzHnwvKwrDX0cKZINxeIxkPIxmLIHUWRTYRR+Y8RmORb1sqXGJJt9CX21eQECLZ/d0dvL91JTRFAcFDH2pCBXWKplilfhV79EzQfwCvx9WXO7Rg5DSEgN+HeDRMk73IpBIQ+QpqVR65bAZmjoPDtgWX3faVO4rhUcCPbeum5Gs0GnQ7z2g1RLy+PFGWPMrFAma0WnicjtEMe3Owbqzj5uoCaxYz0nRenYc2xEoJj62GZNt1AcV8DnflIgz65eEzHATLsoOdf2Q1XDLjZcOyZHJhq5RK3Is8Vgx6uJ12GKmd6qd8XtPtsGGVzi+fSyN0cgw7fU2VSjXd11Or1Zifm8WiTgfOZARLyOQFCSHyL4eeFMYsgX9eDnLhAz8Fk1sfPOqZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
+        alt=&quot;Menu&quot;
         title=&quot;&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
-/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
-/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
-/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
-/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
-/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        src=&quot;/static/2e4580a18280b6e14958d8d9ee946ff8/fcda8/Menu.png&quot;
+        srcset=&quot;/static/2e4580a18280b6e14958d8d9ee946ff8/12f09/Menu.png 148w,
+/static/2e4580a18280b6e14958d8d9ee946ff8/e4a3f/Menu.png 295w,
+/static/2e4580a18280b6e14958d8d9ee946ff8/fcda8/Menu.png 590w,
+/static/2e4580a18280b6e14958d8d9ee946ff8/7de01/Menu.png 794w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Software Engineering Project]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://chiarabianchimani.it/Software Engineering Project/</link><guid isPermaLink="false">https://chiarabianchimani.it/Software Engineering Project/</guid><pubDate>Tue, 28 Jul 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
-&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Well uncritical so misled&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this is very interesting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
-view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
-&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
-Lane. Pityful a rethoric question ran over her cheek, then she continued her
-way. On her way she met a copy.&lt;/p&gt;
-&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
-&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;So baboon this&lt;/li&gt;
-&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
-&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
-&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
-impassive fruitlessly shut&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rethoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and
-return to its own, safe country.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.&lt;/p&gt;
-&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
-&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.&lt;/p&gt;
-&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
-&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
-&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rethoric question ran over her cheek, then she continued her way. On her way she
-met a copy.&lt;/p&gt;
-&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fa6ea641580b6e5f902c99ea7f12f01f/7de01/game.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 84.45945945945947%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAADX0lEQVQ4y3VUaU9TURAtWzQaBcVddiilUJCyF7EFqbJUFkHcNWqURWqL7AgBjIqKG2vLVhEV2RSXKAIRNcYPRhP/0nFmRApGP0xm3rz7zp17zrlPoVAosHrVKvjs3AFv743YvHkTtm/big0bvKTn5+sDX5+d/w0/P19ZwziLoYCXlyfiYrTQJcYjKSEe/v5+yDVlYe3aNbLI1dVVwsXFZUXm4PcBtN7Dw8MJuH79OqQZ9DDuTYUxLRUpuiQcKyqEJlwtoVaFQh2mgiYiHCqlEpGUpUcRpYmANjoKbm5uTkBlcBDmX0/izvUWTI4M4emgDR23r2PmxRhs92/jxegwJh4Nor/zrvTsD9ox9dhBMQQb1W+nRrFt6xYnoC4hDo8HeqRx4sghxNKOXF+prpCcm50ha7iurTBLzjTuRfZ+o9TPnzgQHhbqBGSA2ZfjiI7SoP1aM6wXi+noegzbu5BMvF5trEO15SL1DBjqeYA0fQospRdkXVJ8LOZeTSAkKNAJGEOAH99Ow5CiQ/edNprMioKcbIw97JNJmIrm+mocpB7TkWfKpEnLUXfZjIz0NPk2OCjACci7DHTdk0Zh3gFEqFVSV10qk7yfPopZpMFadkEyT2lM1Us96rCTQEonYHSkBj+/LqCSAF4+G4GjtwOtDTWyc0OVlYQaxEhft/Q+vHmOptpKAXnm6KMpL+H75zkEknWWABPjYoQvrk8eLUICPS8XJf9AFvYkJ60UZV86sjN+izL+aABhocsmjNXuwuz0uCh1s7UJ5uJzwudDWwfitNFoIf4qyktg2K0Talhxnpy53kU+nH81iZDgv0V5x6Iko/vuTTTSZPk5JjjsPWSNdBKlVUALck14OmRDTlYG2loaZXNW/tO7f4jCduD6SGG+2EdEsZRLNtHREhdpqDSXSk437ME+AuOa3aBefmQG+EHElpw7LTeil25HDXE1T/5ivz0Z7JVbUmM14z3dlMsEOmzvFN7LiZ5vCzMIDPB3AibEajHS3y2Ns6eOQ09cubu7o7muSnqHC/LE6Nz7IxR7kX3J9QSJolKGrFSZLRJAv6JbV5tQdv6M9Ngq7Mnm+ipYyH/cY0vxieorLSKMksT4Mvt6JSD//5hDXrwU9MwqO5b3/+5R5mN3td+Al6enAP4C9tR/i8aDbyMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Game&quot;
+        title=&quot;&quot;
+        src=&quot;/static/fa6ea641580b6e5f902c99ea7f12f01f/fcda8/game.png&quot;
+        srcset=&quot;/static/fa6ea641580b6e5f902c99ea7f12f01f/12f09/game.png 148w,
+/static/fa6ea641580b6e5f902c99ea7f12f01f/e4a3f/game.png 295w,
+/static/fa6ea641580b6e5f902c99ea7f12f01f/fcda8/game.png 590w,
+/static/fa6ea641580b6e5f902c99ea7f12f01f/7de01/game.png 794w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Algorithms and Data Structure Project]]></title><description><![CDATA[This project was complementary to my Algorithm and Data structure class. The requirement of the project was the implementation in C of a…]]></description><link>https://chiarabianchimani.it/Algorithms and Data Structure Project/</link><guid isPermaLink="false">https://chiarabianchimani.it/Algorithms and Data Structure Project/</guid><pubDate>Sun, 06 Sep 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;This project was complementary to my Algorithm and Data structure class.&lt;/p&gt;
+&lt;p&gt;The requirement of the project was the implementation in C of a text editor with the commands add, delete, undo, redo.&lt;/p&gt;
+&lt;p&gt;The project purpose was to pass a test suite with strict space and time requirements.&lt;/p&gt;
+&lt;p&gt;I used lists as the general data structure. For the redo and undo commands I took inspiration from the command design pattern.&lt;/p&gt;
+&lt;p&gt;You can find the project &lt;a href=&quot;https://github.com/chiarabia/ProgettoAPI2020&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Composer]]></title><description><![CDATA[This project was made in collaboration with Andrea Franchini. The project started with the idea of giving robots, and thus the people…]]></description><link>https://chiarabianchimani.it/Composer/</link><guid isPermaLink="false">https://chiarabianchimani.it/Composer/</guid><pubDate>Tue, 01 Sep 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This project was made in collaboration with &lt;a href=&quot;https://andreafranchini.com&quot;&gt;Andrea Franchini&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project started with the idea of giving robots, and thus the people programming them, a quick way to give feedback in a human way.
+This was achieved with a easy-to-use webapp where the user can create a musical score, activate motors and LEDS and then generate JSOn or Arduino code with their creation.&lt;/p&gt;
+&lt;p&gt;The webapp is made with React and Redux and by using Typescript. It was made with ease of extensibility in mind. You can read more about it in the &lt;a href=&quot;https://github.com/QUB3X/composer/blob/master/Report.pdf&quot;&gt;report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the live &lt;a href=&quot;https://composer.netlify.app&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the &lt;a href=&quot;https://github.com/QUB3X/composer&quot;&gt;code&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Software Engineering Project]]></title><description><![CDATA[This project was my thesis for my Bachelor degree. It was complementary to my Software Engineering class. I made it in collaboration with…]]></description><link>https://chiarabianchimani.it/Software Engineering Project/</link><guid isPermaLink="false">https://chiarabianchimani.it/Software Engineering Project/</guid><pubDate>Tue, 28 Jul 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;This project was my thesis for my Bachelor degree. It was complementary to my Software Engineering class. I made it in collaboration with &lt;a href=&quot;https://github.com/MarcelloMatteoDeclich&quot;&gt;@MarcelloMatteoDeclich&lt;/a&gt; and &lt;a href=&quot;https://github.com/vittoriodani&quot;&gt;@vittoriodani&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project consisted in the Java implementation of the tabletop game Santorini.&lt;/p&gt;
+&lt;p&gt;We were required to use the MVC pattern, create socket connectivity, CLI and GUI.&lt;/p&gt;
+&lt;p&gt;I worked at the entirety of the GUI and also in particular in the implementation and testing of the logic of the game.&lt;/p&gt;
+&lt;p&gt;You can find the project &lt;a href=&quot;https://github.com/chiarabia/Soft_Eng_BoardGame_2020&quot;&gt;here&lt;/a&gt;. This project is not exactly the same as the one presented as the thesis, since the latter had copyrighted material of the game. &lt;/p&gt;</content:encoded></item></channel></rss>
