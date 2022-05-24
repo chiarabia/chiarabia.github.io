@@ -32,14 +32,14 @@ export const Bio = () => {
     <>
       <h1>Bio</h1>
       <p>I'm Chiara Bianchimani.</p>
-      <p> I'm currently doing a Bachelor Degree in Computer Engineering at 
+      <p> I'm a Computer Engineer graduated at 
         PoliMi (Polytechnic University of Milan). My main topics of interest are: 
         <li className="bio-list">Game Design</li>
         <li className="bio-list">Ethics in Computer Science</li>
         <li className="bio-list">Industrial Automation</li>
       </p>
-      <p>I speak Italian, English, beginner level of Norwegian and I'm studying Chinese (HSK3 level).</p>
-      <p>My hobbies are language learning and crafting, especially artistic journaling.</p>
+      <p>I speak Italian, English and I'm studying Chinese.</p>
+      <p>I have participated in game jams in the role of team leader, designer and programmer.</p>
       <p>You can contact me at: bianca.chiarab (at) gmail (dot) com</p> 
     </>
   )
